@@ -1,0 +1,64 @@
+main {
+    font-size: 20x; 
+    color: aliceblue;
+}
+
+#about-me-field {
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+.element-description {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 5px;
+    justify-content: start;
+}
+
+.element-description div {
+    width: 50%;
+}
+
+.element-description p {
+    text-align: start;
+}
+
+.element-description img {
+    width: 50%;
+}
+
+.info-field {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: start;
+    /*width: 80%;*/
+}
+
+.info-field .word {
+    width: 40%;
+}
+
+.info-field .info {
+    width: 60%;
+}
+
+.useful-list ul {
+    list-style: none;
+}
+
+.useful-list ul a {
+    text-decoration: none;
+    color: #7a9df5;
+    transition: all .10s ease;
+}
+
+.useful-list ul a:hover {
+    color: #006500;
+    transform: scale(1.1);
+}
+
+aside {
+    text-align: center;
+}

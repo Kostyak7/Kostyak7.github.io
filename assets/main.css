@@ -1,0 +1,116 @@
+html {
+    font-size: 15px;
+    background-size: cover;
+    background: linear-gradient(rgba(70, 70, 70, 0.7), rgba(1, 48, 26, 0.7)), url('../static/img/background.jpg') center;
+}
+
+h1 {
+    font-family: "Lexend", sans-serif; !important;
+    font-size: 3em;
+}
+
+.topic {
+    padding-left: 3%;
+    width: 37%;
+}
+
+.topic h1 {
+    padding-left: 15%;
+    border-bottom: 1px solid #a2a9b1 ;
+}
+
+footer {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 4em;
+    text-align: center;
+    padding: 0.3%;
+}
+
+h2 {
+    font-family: "Lexend", sans-serif; !important;
+    color: rgb(163, 176, 211);
+    font-size: 1.5em;
+}
+
+body {
+    font-family: "Lexend", sans-serif;
+    color: rgb(106, 147, 167);
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-top: none;
+    z-index: 1;
+    width: 200%;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    display: block;
+}
+
+nav ul li ul li a {
+    padding: 5px 15px;
+    color: #333;
+    width: 80%;
+    width: auto;
+}
+
+nav ul li ul li a:hover {
+    width: auto;
+    border-radius: 4px;
+    background-color: rgb(173, 245, 255);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: rgb(139, 61, 61);
+}
+
+@media screen and (max-width: 900px) {
+    h1 {
+        background-color: #2f1313;
+    }
+}

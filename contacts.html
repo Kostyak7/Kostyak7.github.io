@@ -2,27 +2,54 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="RP">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Моя Вышка</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-</head>
+    <title>Моё не моё - ЖЖ</title>
+    <link href="static/fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/contacts.css">
+    </head>
+
 <body>
-    <header>
-        <h1>Моя Вышка</h1>
-        <nav>
+
+ <header>
+   <h1>
+    Моё не моё - ЖЖ 
+   </h1>
+ </header>
+
+
+ <nav>
+   <ul>
+     <li><a href="home.html">Домашняя страница</a></li>
+     <li><a href="articles.html">Статьи</a></li>
+     <li><a href="#">Рассказы</a></li>
+     <li>
+            <a href="#">Мои проекты</a>
             <ul>
-                <li><a href="main.html">Главная</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="#">Avellon soft</a></li>
+                <li><a href="#">Random Process Chain creator</a></li>
+                <li><a href="#">Конечноэлементное моделирование процессов пластического формоизменения материалов</a></li>
+                <li><a href="#">Игры на C++</a></li>
             </ul>
-        </nav>
-    </header>
-    <main>
+     </li>
+     <li>
+        <a href="#">Контакты</a>
+        <ul>
+            <li><a href="contacts.html">Об Авторе</a></li>
+            <li><a href="feedback-form.html">Обратная связь</a></li>
+        </ul>
+     </li>
+   </ul>
+ </nav>
+
+
+ <main>
     <div id="about-me-field">
         <h2>Михайлов Константин</h2> <br>
         <div class="element-description" id="description-div-global">
             <div id="description-div"><p>Я - Студент ВШЭ. Я создал эту простенькую страничку</p></div>
-            <div id="description-div"><img src="static/img/6sIzVDTdR1o.jpg" alt="Профиль" id="img-profile"> <br></div>
+            <div id="description-div"><img src="static/img/img (6).jpg" alt="Профиль" id="img-profile"> <br></div>
         </div>
         <div class="info-field">
             <div class="info-field word">
@@ -68,15 +95,24 @@
         <p>Полезные ссылки: </p>
         <div class="useful-list">
             <ul>
-                <h4><a href="https://vk.com/kostyaueuk"><i class="fa-brands fa-vk"></i> Вк</a></h4>
-                <h4><a href="https://github.com/Kostyak7"><i class="fa-brands fa-github"></i> GitHub</a></h4>
-                <h4><a href="https://www.instagram.com/mikhailovkum/"><i class="fa-brands fa-instagram-square"></i> Instagram</a></h4>
+                <h2><a href="https://vk.com/kostyaueuk"><i class="fa-brands fa-vk"></i> Вк</a></h2>
+                <h2><a href="https://github.com/Kostyak7"><i class="fa-brands fa-github"></i> GitHub</a></h2>
+                <h2><a href="https://www.instagram.com/mikhailovkum/"><i class="fa-brands fa-instagram-square"></i> Instagram</a></h2>
             </ul>
         </div>
     </div>
 </main>
+
+<aside>
+    <h3>Моя любимая песня</h3>
+    <audio controls autoplay>
+  <source src="static/sound/Welcome-to-city-17.mp3" type="audio/ogg">
+</audio>
+</aside>
+
 <footer>
-    <p>© 2024 Моя Вышка</p>
+    <p>&copy; 2024, Все права защищены.</p>
 </footer>
+
 </body>
 </html>

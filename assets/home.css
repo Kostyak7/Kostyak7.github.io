@@ -1,0 +1,72 @@
+.gallery {
+    flex-wrap: nowrap;
+    max-width: 1080px;
+    margin: 0 auto; 
+}
+
+.gallery .image {
+    flex: 0 0 auto;
+    padding: 10px;
+    width: 70%;
+    height: 70%;
+    overflow: hidden;
+    margin-right: 10px; 
+}
+
+.img-cont {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.img-cont img {
+  flex: 0 0 auto;
+  width: 75%;
+  height: 75%;
+}
+
+.gallery .image img {
+    width: 100%;
+    height: auto;
+}
+
+
+.notes {
+    column-count: 2;
+    column-gap: 20px;
+}
+
+.note {
+    break-inside: avoid; 
+    margin-bottom: 20px;
+    background-color: #181818;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+}
+
+.article-time {
+    font-style: italic;
+}
+
+.article-type {
+    padding: 0.125rem 0.25rem;
+    border-radius: 4px;
+}
+
+#philos {
+    background: rgba(165, 163, 17, 0.7);
+}
+
+#litra {
+    background: rgba(165, 17, 54, 0.7);
+}
+
+#prog {
+    background: rgba(17, 165, 17, 0.7);
+}
+
+#trip {
+    background: rgba(17, 52, 165, 0.7);
+}
