@@ -7,7 +7,7 @@
     <title>Моё не моё - ЖЖ</title>
     <link href="static/fontawesome/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/main.css">
-    <link rel="stylesheet" href="assets/contacts.css">
+    <link rel="stylesheet" href="assets/chat-bot.css">
     </head>
 
 <body>
@@ -46,11 +46,30 @@
 
 
  <main>
-   
-    <div class="topic">
-        <h1>Новости и статьи</h1>
-    </div>
+
+  <h2>Бот Валера</h2>
+
+  <div id="chat-container">
+      <div id="chat-messages"></div>
+      <div id="input-container">
+          <textarea id="message-input" placeholder="Введите сообщение..."></textarea>
+          
+          <input type="file" accept="audio/*" id="audio-input">
+          <button id="audio-upload">
+            <label for="audio-input"><i class="fa-regular fa-file-audio"></i></label> 
+          </button>
+
+          <label data-tooltip="Команды для бота:
+            Привет, Пока, Игра
+          ">
+            <button id="send-button"><i class="fa-regular fa-paper-plane"></i> </button>
+          </label>
+
+      </div>
+  </div>
     
+
+
 </main>
 
 <footer>
@@ -58,4 +77,7 @@
 </footer>
 
 </body>
+
+<script src="scripts/bot_logic.js"> </script>
+
 </html>
