@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="RP">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моё не моё - ЖЖ</title>
+    <link href="../static/fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/chat-bot.css">
+    </head>
+
+<body>
+
+ <header>
+   <h1>
+    Моё не моё - ЖЖ 
+   </h1>
+ </header>
+
+
+ <nav>
+   <ul>
+     <li><a href="home.html">Домашняя страница</a></li>
+     <li><a href="articles.html">Статьи</a></li>
+     <li><a href="#">Рассказы</a></li>
+     <li>
+            <a href="#">Мои проекты</a>
+            <ul>
+                <li><a href="#">Avellon soft</a></li>
+                <li><a href="#">Random Process Chain creator</a></li>
+                <li><a href="#">Конечноэлементное моделирование процессов пластического формоизменения материалов</a></li>
+                <li><a href="#">Игры на C++</a></li>
+            </ul>
+     </li>
+     <li><a href="chat-bot.html">Чат-бот</a></li>
+     <li>
+        <a href="#">Контакты</a>
+        <ul>
+            <li><a href="contacts.html">Об Авторе</a></li>
+            <li><a href="feedback-form.html">Обратная связь</a></li>
+        </ul>
+     </li>
+   </ul>
+ </nav>
+
+
+ <main>
+
+  <h2>Бот Валера</h2>
+
+  <div id="chat-container">
+      <div id="chat-messages"></div>
+      <div id="input-container">
+          <textarea id="message-input" placeholder="Введите сообщение..."></textarea>
+          
+          <input type="file" accept="audio/*" id="audio-input">
+          <button id="audio-upload">
+            <label for="audio-input"><i class="fa-regular fa-file-audio"></i></label> 
+          </button>
+
+          <label data-tooltip="Команды для бота:
+            Привет, Пока, Игра
+          ">
+            <button id="send-button"><i class="fa-regular fa-paper-plane"></i> </button>
+          </label>
+
+      </div>
+  </div>
+    
+
+
+</main>
+
+<footer>
+    <p>&copy; 2024, Все права защищены.</p>
+</footer>
+
+</body>
+
+<script src="../js/bot_logic.js"> </script>
+
+</html>

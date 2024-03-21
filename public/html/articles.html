@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="RP">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моё не моё - Статьи</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/articles.css">
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    </head>
+
+<body>
+
+ <header>
+   <h1>
+    Моё не моё - ЖЖ 
+   </h1>
+ </header>
+
+
+ <nav>
+   <ul>
+     <li><a href="home.html">Домашняя страница</a></li>
+     <li><a href="articles.html">Статьи</a></li>
+     <li><a href="#">Рассказы</a></li>
+     <li>
+            <a href="#">Мои проекты</a>
+            <ul>
+                <li><a href="#">Avellon soft</a></li>
+                <li><a href="#">Random Process Chain creator</a></li>
+                <li><a href="#">Конечноэлементное моделирование процессов пластического формоизменения материалов</a></li>
+                <li><a href="#">Игры на C++</a></li>
+            </ul>
+     </li>
+     <li><a href="chat-bot.html">Чат-бот</a></li>
+     <li>
+        <a href="#">Контакты</a>
+        <ul>
+            <li><a href="contacts.html">Об Авторе</a></li>
+            <li><a href="feedback-form.html">Обратная связь</a></li>
+        </ul>
+     </li>
+   </ul>
+ </nav>
+
+<main>
+
+    <article>
+        <div class="topic">
+            <h1>О моем университете</h1>
+        </div>
+        <h2>История</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <!-- Видео о ВШЭ -->
+        <video controls>
+            <source src="../static/videos/miem24112014.mp4" type="video/mp4">
+        </video>
+        <details>
+            <summary>Узнать больше</summary>
+            <p>Я учусь в МИЭМ - инженерном факультете ВШЭ</p>
+        </details>
+        <h2>Расположение университета</h2>
+        <div id="map"></div>    
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </article>
+      
+
+</main>
+
+
+<footer>
+    <p>&copy; 2024, Все права защищены.</p>
+</footer>
+
+</body>
+
+<script src="../js/map_logic.js"> </script>
+
+</html>
